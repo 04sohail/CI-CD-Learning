@@ -2,6 +2,8 @@ services:
   CI_CD_Learning:
     build: .
     container_name: CI_CD_Learning
+    env_file:
+      - .env
     ports:
       - "8081:8000"
     restart: always

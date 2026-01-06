@@ -2,11 +2,6 @@ services:
   CI_CD_Learning:
     build: .
     container_name: CI_CD_Learning
-    command: ["python", "run.py", "server"]
-    env_file:
-      - .env
     ports:
       - "8081:8000"
     restart: always
-    extra_hosts:
-      - "host.docker.internal:host-gateway"

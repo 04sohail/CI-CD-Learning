@@ -1,7 +1,7 @@
 services:
-  CI_CD_Learning:
+  ci-cd-learning:
     build: .
-    container_name: CI_CD_Learning
+    container_name: ci-cd-learning
     env_file:
       - .env
     ports:

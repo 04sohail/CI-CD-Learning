@@ -13,7 +13,7 @@ def root(request: Request):
         "index.html",
         {
             "request": request,
-            "title": "FastAPI CI/CD Demo",
+            "title": "FastAPI CI/CD SHASHANK",
             "message": "FastAPI CI/CD app is running 🚀"
         }
     )

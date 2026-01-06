@@ -14,7 +14,7 @@ def root(request: Request):
         {
             "request": request,
             "title": "FastAPI CI/CD SHASHANK",
-            "message": "FastAPI CI/CD app is running 🚀"
+            "message": "FastAPI CI/CD app is running 🚀 SHASHANK"
         }
     )
 

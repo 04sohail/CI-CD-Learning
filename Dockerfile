@@ -21,4 +21,4 @@ COPY . .
 # Internal port
 EXPOSE 8000
 
-CMD ["python", "run.py"]
+CMD ["python", "run.py", "server"]
